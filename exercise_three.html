@@ -10,19 +10,19 @@
         var player1Score = parseFloat(prompt("Player 1 Score:"));
         var player2Score = parseFloat(prompt("Player 2 Score:"));
         var player1Name = parseFloat(prompt("Player 1 Name:"));
-        var player2Name = parseFloat9(prompt("Player 2 Name:"));
+        var player2Name = parseFloat(prompt("Player 2 Name:"));
         /*
             Todo:
             Prompt the players for their names.
             Print out the name of the player with the higher score,
             or "Tie" if there is a tie.
         */
-        If (player1Score > player2Score) {
-            console.log(player1Name)
-        } else if (player1Score < player2Score) {
-            console.log(player2Name)
-        } else (player1Score === player2Score) {
-            console.log("Its a tie!")
+        if (player1Score > player2Score) { //if player1Score is greater than player2Score
+            console.log(player1Name) //log player1Name
+        } else if (player1Score < player2Score) { //else if player1Score is less than player2Score
+            console.log(player2Name) //log player2Name
+        } else if (player1Score === player2Score) { //else if player1Score is equal to player2Score
+            console.log("It's a tie!") //log string, It's a tie!
         }
 
     </script>

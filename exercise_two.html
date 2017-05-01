@@ -21,14 +21,14 @@
             The rest of this script changes the background color of the page depending on the hour of day. It begins as a darkblue, then a light blue. TODO: build out the rest of the day. Choose whatever colors feel right to you.
         */
         
-        if (hourOfDay < 6) {
-            body.style.backgroundColor = "darkblue";
-        } else if (hourOfDay < 12) {
-            body.style.backgroundColor = "lightblue";
-        } else if (hourOfDay < 18) {
-            body.style.backgroundColor = "yellow";
-        } else if (hourOfDay < 24) {
-            body.style.backgroundColor = "black";
+        if (hourOfDay < 6) { //if hour of day is less than 6
+            body.style.backgroundColor = "darkblue"; //background color equals darkblue
+        } else if (hourOfDay < 12) { //else if hour of day is less than 12
+            body.style.backgroundColor = "lightblue"; //background color equals lightblue
+        } else if (hourOfDay < 18) { //else if hour of day is less than 18
+            body.style.backgroundColor = "purple"; //background color equals purple
+        } else if (hourOfDay < 24) { //else if hour of the day is less than 24
+            body.style.backgroundColor = "black"; //background color equals black
         }
         
     </script>

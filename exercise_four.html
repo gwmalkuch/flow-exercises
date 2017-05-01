@@ -46,37 +46,37 @@
         var is_in_tree = false;
         var crying = true;
 
-        if (typeof(score) != number) {
-            score = 500;
-        } else {
-            score = score
+        if (typeof(score) != "number") { //if typeof score is not equal to a number
+            score = 500; //score equals 500
+        }   else { 
+            score = score //else score is equal to score
         }
-        if (crying == true) {
-            score - 300;
-        } else {
-            score + 50;
+        if (crying === true) { //if crying is equal to true
+            score - 300; //subtract 300 from score
+        }   else {
+            score + 50; //else add 50 to score
         }
-        if (last_play = "Q") {
-            score - 77;
+        if (last_play = "Q") { //if last_play is equal to Q
+            score - 77; //subtract 77 from score
         }
-        if (is_in_tree == true) && (typeof(last_play) != number) {
-            score + 395;
+        if (is_in_tree === true && typeof(last_play) != "number") { //if is_in_tree is true and typeof last_play is not equal to a number
+            score + 395; //add 395 to score
         }
-        if (broom == "handle") {
-            score * 2;
-        } else if (broom == "brush") {
-            score * 3;
-        } else {
-            score / 2;
+        if (broom === "handle") { //if broom is equal to string handle
+            score * 2; //multiply score by 2
+        }   else if (broom === "brush") { //else if broom is equal to string brush
+            score * 3; //multiply score by 3
+        }   else {
+            score / 2; //else divide score by 2
         }
-        if (has_ball == true) && (is_in_tree == false) && (crying != true) {
-            score * 1.5;
+        if (has_ball === true && is_in_tree === false && crying != true) { //if has_ball is true and is_in_tree is false and if crying is not true
+            score * 1.5; //multiply score by 1.5
         } 
-        if (last_play == number) {
-            score * last_play;
+        if (last_play === "number") { //if last_play is equal to number
+            score * last_play; // multiply score to last_play
         }
 
-        console.log(score);
+        console.log(score); //log score
 
     </script>
 </body>
